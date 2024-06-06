@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    max-width: 1366px;
+    min-width: 320px;
+    height: 100vh;
+    margin: 0 auto; 
+    background-color: #01022a;
+}
+
+.container {
+    width: 60%;
+    background-color: rgb(234, 225, 241);
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    color: #01022a;
+    font-size: 34px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    text-align: center;  
+}
+
+header button {
+    background-color: #8857B7;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 30px auto;
+    width: 200px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b1063;
+}
+
+form {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display: none;
+}
+
+input,
+button {
+    padding: 4px;
+    margin: 4px;
+}
+
+#novo-item {
+    width: 250px;
+}
+
+form button {
+    width: 95px;
+    cursor: pointer;
+    border: none;
+    background-color: #8857B7;
+    color: #FFE999;
+    letter-spacing: 2px;
+}
+
+#btn-cancelar {
+    background-color: #FED653;
+    color: #5C1C99;
+}
+
+#linhaHorizontal {
+    width: 90%;
+    border-top: 2px dotted #8957b770;
+    margin: 30px auto;
+}
+
+ul {
+    width: 40%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+li {
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+footer {
+    font-size: 10px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
